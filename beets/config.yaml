@@ -1,0 +1,11 @@
+directory: ~/music
+library: ~/.config/beets/musiclibrary.blb
+plugins: fetchart chroma acousticbrainz scrub lastgenre discogs
+
+acousticbrainz:
+        auto: yes
+
+fetchart:
+        minwidth: 1000
+        maxwidth: 1000
+        enforce_ratio: yes
